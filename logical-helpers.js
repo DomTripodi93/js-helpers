@@ -9,7 +9,7 @@ class helpers{
     capitalizeAll(string){
         let words = string.split(" ");
         for (let i = 0; i < words.length; i++){
-            words[i] = this.capitalize(words[i]);
+            words[i] = this.capitalizeFirst(words[i]);
         }
         return words.join(" ");
     }
