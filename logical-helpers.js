@@ -93,7 +93,7 @@ class helpers{
             time = time + " AM"
         }
         } else {
-            time = time + " AM"
+            time = time.substring(1, 5) + " AM"
         }
             return time;
     }
